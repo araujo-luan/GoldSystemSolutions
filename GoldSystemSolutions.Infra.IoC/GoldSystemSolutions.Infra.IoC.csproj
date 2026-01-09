@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GoldSystemSolutions.Application\GoldSystemSolutions.Application.csproj" />
+    <ProjectReference Include="..\GoldSystemSolutions.Domain\GoldSystemSolutions.Domain.csproj" />
+    <ProjectReference Include="..\GoldSystemSolutions.Infra.Data\GoldSystemSolutions.Infra.Data.csproj" />
+  </ItemGroup>
+
+</Project>
