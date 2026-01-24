@@ -15,7 +15,7 @@ namespace GoldSystemSolutions.Domain.Entities
         public string Email { get; private set; }
         public string PhoneNumber { get; private set; }
         
-        public required ICollection<Address> Addresses { get; set; } //PROPERTY NAVIGATION
+        public ICollection<Address> Addresses { get; set; } //PROPERTY NAVIGATION
 
         public Customer(
             string name,

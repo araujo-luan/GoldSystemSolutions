@@ -28,7 +28,7 @@ namespace GoldSystemSolutions.Domain.Entities
         public Address Address { get; private set; } //PROPERTY NAVIGATION
         public int InvoceStatus { get; private set; } //STATUS DA NF (0 = Pendente, 1 = Em rota de entrega, 2 = Entregue, 3 = Em devolução, 4 = Cancelado)
         public int InvoceItemsCount { get; private set; } //QUANTIDADE DE ITENS NA NF
-        public required ICollection<InvoceItem> InvoceItems { get; set; } //PROPERTY NAVIGATION
+        public ICollection<InvoceItem> InvoceItems { get; set; } //PROPERTY NAVIGATION
         public decimal FreightCost { get; private set; } //CUSTO DO FRETE
         public decimal Weight { get; private set; } //PESO TOTAL DA NF
 

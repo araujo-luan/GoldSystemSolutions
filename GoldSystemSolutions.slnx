@@ -1,5 +1,6 @@
 <Solution>
   <Project Path="GoldSystemSolutions.Application/GoldSystemSolutions.Application.csproj" Id="7c7029af-1c37-4d44-90f0-57d6ff9fbe75" />
+  <Project Path="GoldSystemSolutions.Domain.Tests/GoldSystemSolutions.Domain.Tests.csproj" Id="508ea218-3000-4400-b333-c97896346014" />
   <Project Path="GoldSystemSolutions.Domain/GoldSystemSolutions.Domain.csproj" Id="75953d9f-3f75-40c6-b3d6-6fbf2b0b0785" />
   <Project Path="GoldSystemSolutions.Infra.Data/GoldSystemSolutions.Infra.Data.csproj" Id="3f39a29a-5d0d-4771-a3fb-490f481bb6e9" />
   <Project Path="GoldSystemSolutions.Infra.IoC/GoldSystemSolutions.Infra.IoC.csproj" Id="f0e25cf4-23ba-466f-8d05-822ea4cafc73" />
